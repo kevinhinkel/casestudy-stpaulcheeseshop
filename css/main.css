@@ -113,14 +113,58 @@ textarea {
     padding: 0;
   }
 
+  body {
+	font-size: 12px;
+	line-height: 30px;
+    font-family: 'Muli', sans-serif; 
+    font-weight: bolder;
+    letter-spacing: .4px;
+}
 
+h1 {
+    font-weight: lighter;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
 
+h4{
+    color: #F08933;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 5px;
 
+}
 
+h2 {
+    color: #F08933;
+    font-family: 'Noto Serif', serif;
+}
 
+#subscribe h2 {
+    color: #272727;
+}
 
+.about{
+    display: table-cell;
+    padding: 10px 10px 10px 10px;
+    width: 66.66%;
+    vertical-align: top;    
+}
+.sidebar{
+    display: table-cell;
+    padding: 10px 10px 10px 10px;
+    width: 33.33%;
+    vertical-align: top;
+}
 
-
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+  }
+  
+  div#tableRow {
+    display: table-row;
+  }
 
 
 
