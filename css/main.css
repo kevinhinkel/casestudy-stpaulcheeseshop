@@ -115,16 +115,23 @@ textarea {
 
   body {
 	font-size: 12px;
-	line-height: 30px;
-    font-family: 'Muli', sans-serif; 
-    font-weight: bolder;
+	line-height: 20px;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
     letter-spacing: .4px;
+}
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
 }
 
 h1 {
     font-weight: lighter;
     font-size: 60px;
     letter-spacing: 1px;
+    line-height: 70px; 
+    width: 960px;
 }
 
 h4{
@@ -139,6 +146,71 @@ h2 {
     color: #F08933;
     font-family: 'Noto Serif', serif;
 }
+
+
+#masthead{
+    background: black;
+    margin: auto 0px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+}
+
+#logo{
+    width: 235px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    /* z-index: 100; */
+}
+
+
+.jumbotron {
+    margin-top: 80px;
+    background: hsla(0, 0%, 0%, 0.5);
+    padding: 0;
+    position: relative;
+}
+.jumbotron__bg {
+    display: block;
+    position: relative;
+    z-index: -20;
+    width: 100%;
+}
+.jumbotron__content {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+.jumbotron__content h2 {
+    margin-top: 0;
+    font-size: 3em;
+}
+
+
+nav {
+    /* position: fixed; */
+    background: black;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 
 #subscribe h2 {
     color: #272727;
