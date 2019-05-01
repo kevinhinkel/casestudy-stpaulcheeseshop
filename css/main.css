@@ -119,9 +119,10 @@ textarea {
     font-family: Arial, Helvetica, Verdana, sans-serif;
     letter-spacing: .4px;
 }
+
 .container {
 	width: 100%;
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 	clear: both;
 }
@@ -158,7 +159,6 @@ h2 {
     z-index: 100;
     top: 0;
     left: 0;
-    padding: 1em;
     /* position: absolute; */
     width: 100%;
 }
@@ -201,38 +201,65 @@ h2 {
     font-size: 3em;
 }
 
-
+/* nav bar */
 nav {
-    /* position: fixed; */
     background: black;
-    width: 100%;
     text-align: center;
-    clear: both;
+    padding-bottom: 40px;
+
 }
 
-nav a {
-    color: white;
+#main-nav ul li{
+    list-style: none;
+}
+
+#main-nav {
+    color: #fff;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: #fff;
+    padding: 0px 20px 0px 20px;
     text-decoration: none;
-    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
-
-#subscribe h2 {
-    color: #272727;
+#main-nav a:hover {
+    color: #F08933;
 }
+
+/* table container */
+
 
 .about{
     display: table-cell;
     padding: 10px 10px 10px 10px;
     width: 66.66%;
     vertical-align: top;    
+    margin: 10px;
 }
+
+.about h2 {
+font-size: 30px;
+line-height: 40px;
+}
+
 .sidebar{
     display: table-cell;
     padding: 10px 10px 10px 10px;
     width: 33.33%;
     vertical-align: top;
+    margin: 10px;
 }
+#subscribe h2 {
+    color: #272727;
+}
+
 
 div#tableContainer {
     display: table;
@@ -243,6 +270,15 @@ div#tableRow {
     display: table-row;
   }
 
+
+/* social-media icons */
+
+#social-media ul {
+    list-style: none;
+    padding-left: 45%;
+
+}
+  
 #social-media {
     width: 100%;
     height: 120px;
@@ -255,12 +291,6 @@ div#tableRow {
     margin: 5px;
     margin-top: 40px;
     max-width: 960px;
-}
-
-ul {
-    list-style: none;
-    padding-left: 45%;
-
 }
 
 
@@ -295,7 +325,7 @@ footer{
 	nav {
 		text-align: center;
 		width: 100%;
-		margin: 15px 0;
+		/* margin: 15px 0; */
 	}
 	nav a {
 		width: 30%;
