@@ -237,7 +237,7 @@ nav {
     margin-bottom: 70px;
 }
 /* about information */
-.about{
+#about{
     display: table-cell;
     width: 66.66%;
     vertical-align: top;    
@@ -247,14 +247,14 @@ h2 {
     font-family: 'Noto Serif', serif;
 }
 
-.about h2 {
+#about h2 {
     color: #F08933;
     font-size: 30px;
     line-height: 45px;
     margin-bottom: 15px;
 }
 
-.about p {
+#about p {
     margin-bottom: 30px; 
 }
 
@@ -309,6 +309,7 @@ h2 {
     border-radius: 30px;
     color: #fff;
     background-color: #272727;
+    outline: none;
 }
 
 
@@ -388,16 +389,16 @@ footer{
    }
 
    h1{
-       font-size: 40px;
-       line-height: 40px;
+       font-size: 35px;
+       line-height: 35px;
        white-space: normal;
    }
 
-   .about h2 {
+   #about h2 {
        font-size: 20px;
    }
 
-   .about img {
+   #about img {
     max-width: 100%;
 	height: auto;
 	width: auto;
@@ -408,7 +409,14 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-    .about img {
+    
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        white-space: normal;
+    }
+
+    #about img {
         max-width: 100%;
         height: auto;
         width: auto;
