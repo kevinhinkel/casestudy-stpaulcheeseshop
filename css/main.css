@@ -152,13 +152,15 @@ h3{
     margin: auto;
 }
 
+
+
+/*-------------------------------------------- masthead with jumbotron */
 #masthead{
     background: black;
     margin: auto 0px;
     z-index: 100;
     top: 0;
     left: 0;
-    /* position: absolute; */
     width: 100%;
 }
 
@@ -168,12 +170,9 @@ h3{
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    /* z-index: 100; */
 }
 
-
 .jumbotron {
-    /* margin-top: 80px; */
     background: hsla(0, 0%, 0%, 0.5);
     padding: 0;
     position: relative;
@@ -200,7 +199,9 @@ h3{
     font-size: 3em;
 }
 
-/* nav bar */
+
+
+/*-------------------------------------------- nav-bar */
 nav {
     background: black;
     text-align: center;
@@ -232,11 +233,17 @@ nav {
     color: #F08933;
 }
 
-/* table container */
+
+
+
+/*-------------------------------------------- table container */
 #tableContainer{
     margin-bottom: 70px;
 }
-/* about information */
+
+
+
+/*-------------------------------------------- about information */
 #about{
     display: table-cell;
     width: 66.66%;
@@ -259,7 +266,8 @@ h2 {
 }
 
 
-/* sidebar information */
+
+/*-------------------------------------------- sidebar information */
 .sidebar{
     display: table-cell;
     padding: 10px 0px 10px 80px;
@@ -278,7 +286,7 @@ h2 {
     padding: 25px;
 }
 #subscriptionForm h2{
-    color: #272727;
+    color: #353535;
     font-size: 25px;
     padding-bottom: 20px;
     font-weight: lighter;
@@ -308,10 +316,15 @@ h2 {
     height: 50px;
     border-radius: 30px;
     color: #fff;
-    background-color: #272727;
+    background-color: #353535;
     outline: none;
+    cursor: pointer;
+    font-size: 13px;
 }
 
+.submit:hover{
+    background-color: #4e4e4e;
+}
 
 div#tableContainer {
     display: table;
@@ -323,7 +336,7 @@ div#tableRow {
   }
 
 
-/* social-media icons */
+/*-------------------------------------------- social-media icons */
 
 #social-media ul {
     list-style: none;
@@ -345,6 +358,8 @@ div#tableRow {
 }
 
 
+
+/*-------------------------------------------- footer */
 footer{
     background-color: #000;
     color: #fff;
@@ -356,8 +371,40 @@ footer{
     font-size: 12px;
 }
 
-/* @media only screen and (max-width: 980px) 
-@media only screen and (max-width: 640px)  */
+
+/*-------------------------------------------- menu page styles */
+.grid {
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.col {
+    float: left;
+}
+
+.col-1-2 {
+    width: 50%;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+.food {
+    display: inline-block;
+    background-color: red;
+    margin: 20px;
+}
+
+
+
+/*--------------------------------------------@media only screen and (max-width: 980px) 
+----------------------------------------------@media only screen and (max-width: 640px)  */
 
 @media only screen and (max-width: 640px) {
 	#masthead {
