@@ -379,8 +379,10 @@ footer{
 
 
 /*-------------------------------------------- column page styles */
+
 .item {
     position: relative;
+    font-weight: bold;
     /* width: 100%; */
 }
 
@@ -389,13 +391,14 @@ footer{
     right: 0;
     top: 0;
     width: auto 0;
+    font-weight: lighter;
 }
 
 
 .column {
     float: left;
     width: 33.33%;
-    height: 300px;
+    height: 90px;
     padding: 0 20px 0 20px;
   }
   
@@ -404,6 +407,7 @@ footer{
     padding-right: 5%;
     width: 100%;
   }
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -496,9 +500,29 @@ footer{
         height: auto;
         width: auto;
        }
+    
        .sidebar {
         padding: 10px 0px 10px 40px;
     }   
+    
+    .column {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .price {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 30px;
+        width: auto 0;
+    }
+    
+    .item {
+        position: relative;
+        width: 150px;
+    }
+
 }
 
  /* ==========================================================================
