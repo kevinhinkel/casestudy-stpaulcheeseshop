@@ -391,7 +391,7 @@ footer{
     position: absolute;
     right: 0;
     top: 0;
-    width: auto 0;
+    /*width: auto 0;*/ 
     font-weight: lighter;
 }
 
@@ -523,7 +523,7 @@ footer{
         right: 0;
         top: 0;
         height: 30px;
-        width: auto 0;
+/*        width: auto 0;*/
     }
     
     .item {
