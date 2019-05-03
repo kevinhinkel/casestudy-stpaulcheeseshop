@@ -379,6 +379,18 @@ footer{
 
 
 /*-------------------------------------------- column page styles */
+.item {
+    position: relative;
+    /* width: 100%; */
+}
+
+.price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto 0;
+}
+
 
 .column {
     float: left;
