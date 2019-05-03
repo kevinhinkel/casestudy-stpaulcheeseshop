@@ -380,6 +380,7 @@ footer{
 
 /*-------------------------------------------- column page styles */
 
+
 .item {
     position: relative;
     font-weight: bold;
@@ -417,12 +418,19 @@ footer{
 
   .menu-container{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
    .menu-container h3 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
+    .menu-container h6 {
+        text-align: center;
+        font-size: 10.5px;
+        line-height: 7px;
+        margin-bottom: 50px;
+    }
 
 /*--------------------------------------------@media only screen and (max-width: 980px) 
 ----------------------------------------------@media only screen and (max-width: 640px)  */
