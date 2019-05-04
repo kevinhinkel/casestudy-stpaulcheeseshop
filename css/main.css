@@ -116,10 +116,11 @@ textarea {
   body {
 	font-size: 13px;
 	line-height: 25px;
-    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-family: 'Questrial', sans-serif; 
     letter-spacing: .4px;
     font-weight: bold;
 }
+/* Arial, Helvetica, Verdana, */
 
 .container {
 	width: 100%;
@@ -152,6 +153,14 @@ h3{
     margin: auto;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    /* white-space: nowrap; */
+    font-family: 'Questrial', sans-serif;
+}
 
 h5 {
     font-size: 16px;
@@ -339,46 +348,7 @@ div#tableRow {
     display: table-row;
   }
 
-
-/*-------------------------------------------- social-media icons */
-
-#social-media ul {
-    list-style: none;
-    /* padding-left: 45%; */
-    margin-left: 45.5%;
-    margin-right: 45.5%;
-    width: 100%;
-}
-  
-#social-media {
-    width: 100%;
-    height: 120px;
-    background-color: #08774C;
-}
-
-#social-media img{
-    height: 40px;
-    float: left;
-    margin: 5px;
-    margin-top: 40px;
-}
-
-
-
-/*-------------------------------------------- footer */
-footer{
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    height: 120px;
-    text-align: center;
-    padding: 30px;
-    letter-spacing: 2px;
-    font-size: 12px;
-}
-
-
-/*-------------------------------------------- column page styles */
+/*-------------------------------------------- menu page styles */
 
 
 .item {
@@ -395,8 +365,13 @@ footer{
     font-weight: lighter;
 }
 
+.col-2-1 {
+    float: left;
+    width: 50%;
+    padding: 0 20px 0 20px;
+}
 
-.column {
+.col-1-3 {
     float: left;
     width: 33.33%;
     height: 90px;
@@ -430,7 +405,66 @@ footer{
         font-size: 10.5px;
         line-height: 7px;
         margin-bottom: 50px;
+        line-height: 12px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
+/*-------------------------------------------- catering page */
+#catering-info {
+    text-align: center;
+}
+.catering-container {
+    margin: 40px 50px 50px 50px;
+
+}
+#catering-info a{
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------- social-media icons */
+
+#social-media ul {
+    list-style: none;
+    /* padding-left: 45%; */
+    margin-left: 45.5%;
+    margin-right: 45.5%;
+    width: 100%;
+}
+  
+#social-media {
+    width: 100%;
+    height: 120px;
+    background-color: #08774C;
+}
+
+#social-media img{
+    height: 40px;
+    float: left;
+    margin: 5px;
+    margin-top: 40px;
+}
+
+.catering-container h5{
+    text-align: center;
+    margin: 50px;
+}
+
+
+/*-------------------------------------------- footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+
+
 
 /*--------------------------------------------@media only screen and (max-width: 980px) 
 ----------------------------------------------@media only screen and (max-width: 640px)  */
@@ -443,7 +477,7 @@ footer{
 	header.container {
 		padding: 0;
 	}
-	#main-container {
+	#menu-container {
 		padding-top: 0;
 	}
 
@@ -513,7 +547,7 @@ footer{
         padding: 10px 0px 10px 40px;
     }   
     
-    .column {
+    .col-1-3 {
         width: 200px;
         height: 150px;
     }
@@ -523,12 +557,12 @@ footer{
         right: 0;
         top: 0;
         height: 30px;
-/*        width: auto 0;*/
     }
     
     .item {
         position: relative;
-        width: 150px;
+        width: 145px;
+        padding-right: 10px;
     }
 
 }
