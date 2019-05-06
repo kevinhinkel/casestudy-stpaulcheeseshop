@@ -122,6 +122,8 @@ textarea {
 }
 /* Arial, Helvetica, Verdana, */
 
+
+
 .container {
 	width: 100%;
 	/* clear: both; */
@@ -244,6 +246,55 @@ nav {
 
 #main-nav a:hover {
     color: #F08933;
+}
+/* ------------------------- nav-dropdown */
+
+
+#main-nav li {
+    text-align: left;
+    margin: 5px 0 5px 0;
+}
+/* ---------- ^ dropdown styling ^  */
+
+#main-nav li a {
+    padding: 0px 30px 0 30px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    color: white;
+
+}
+
+#main-nav li a:hover {
+    background-color: #000000;
+    color: #F08933;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+}
+
+#main-nav li ul {
+    position: absolute;
+    display: none;
+    background: #000000;
+    border: 1px solid#000000;
+    border-top: none;
+    width: 300px;
+    /* margin-top: 20px; */
+}
+/* ---------- ^ dropdown styling ^  */
+
+#main-nav li:hover ul {
+    display: block;
+    border-radius: 0 0 5px 5px; 
+    -moz-border-radius: 0 0 5px 5px;
+    z-index: 100;
+}
+
+#main-nav li li {
+    float: none;
+}
+
+#main-nav li li:first-child {
+    border-top: none;
 }
 
 
@@ -524,6 +575,11 @@ footer{
 ----------------------------------------------@media only screen and (max-width: 640px)  */
 
 @media only screen and (max-width: 640px) {
+    #main-nav li {
+        text-align: left;
+        margin: 5px 0 5px 0;
+        display: block;
+    }
 	#masthead {
 		position: static;
 
