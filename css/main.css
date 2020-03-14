@@ -114,8 +114,8 @@ textarea {
   }
 
   body {
-	font-size: 13px;
-	line-height: 25px;
+    font-size: 13px;
+    line-height: 25px;
     font-family: 'Questrial', sans-serif; 
     letter-spacing: .4px;
     font-weight: bold;
@@ -125,8 +125,8 @@ textarea {
 
 
 .container {
-	width: 100%;
-	/* clear: both; */
+    width: 100%;
+    /* clear: both; */
 }
 
 #tableContainer {
@@ -485,7 +485,7 @@ div#tableRow {
     font-weight: normal;
     width: 270px;
     height: 75px;
-    margin: 0 auto;
+    margin: auto;
     font-weight: bold;
     font-size: 25px;
 }
@@ -500,12 +500,13 @@ div#tableRow {
     width: 270px;
     height: 75px;
     color: #fff;
+    padding: 25px;
     background-color: #353535;
     outline: none;
     cursor: pointer;
     font-size: 25px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .orderNow:hover{
@@ -532,8 +533,6 @@ div#tableRow {
 
 #social-media ul {
     list-style: none;
-    margin-left: 45.5%;
-    margin-right: 45.5%;
     width: 100%;
 }
   
@@ -541,6 +540,11 @@ div#tableRow {
     width: 100%;
     height: 120px;
     background-color: #08774C;
+}
+
+.social-buttons{
+    display: flex;
+    justify-content: center;
 }
 
 #social-media img{
@@ -580,26 +584,26 @@ footer{
         margin: 5px 0 5px 0;
         display: block;
     }
-	#masthead {
-		position: static;
+    #masthead {
+        position: static;
 
-	}
-	header.container {
-		padding: 0;
-	}
-	#menu-container {
-		padding-top: 0;
-	}
+    }
+    header.container {
+        padding: 0;
+    }
+    #menu-container {
+        padding-top: 0;
+    }
 
-	nav {
-		text-align: center;
-		width: 100%;
-		/* margin: 15px 0; */
-	}
-	nav a {
-		width: 30%;
-		padding-left: 0;
-		margin-left: 0;
+    nav {
+        text-align: center;
+        width: 100%;
+        /* margin: 15px 0; */
+    }
+    nav a {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
     }
     
    #logo{
@@ -618,8 +622,8 @@ footer{
 
    #about img {
     max-width: 100%;
-	height: auto;
-	width: auto;
+    height: auto;
+    width: auto;
    }
    .sidebar {
     padding: 10px 0px 10px 20px;
